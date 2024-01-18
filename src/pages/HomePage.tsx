@@ -3,9 +3,6 @@ import Bg from "../assets/bg.svg";
 import Logo from "../assets/logo.webp"
 import Modal from "../components/Modal";
 
-
-
-import { IoSparklesOutline } from "react-icons/io5";
 import { useState } from "react";
 const HomePage = () => {
 
