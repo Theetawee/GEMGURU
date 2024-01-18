@@ -29,15 +29,13 @@ const HomePage = () => {
                     <div className="absolute mb-4 top-0 left-0">
                         <img src={Logo} alt="Logo" className="w-32 h-32 object-cover" />
                     </div>
-                    <h1 className=" text-3xl md:text-6xl font-bold text-white animate__animated animate__zoomInDown mb-4">
+                    <h1 className=" text-3xl md:text-6xl font-bold text-gray-100 animate__animated animate__zoomInDown mb-4">
                         Embrace the Brilliance: Welcome to <br />
                         <div className="flex items-center justify-center">
-                            <span className="text-[#C0C0C0] relative">
+                            <span className="text-white relative">
                                 Gem
-                                <IoSparklesOutline className="animate-pulse text-[#BD9851] absolute left-0 bottom-0 w-4 h-4"/>
-                            </span>
+                                 </span>
                             <span className="relative text-[#BD9851]">
-                                <IoSparklesOutline className="absolute animate-pulse text-white w-4 h-4 top-2 -right-1" />
                                 Guru
                             </span>
                         </div>
